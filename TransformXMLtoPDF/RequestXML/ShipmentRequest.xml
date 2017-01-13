@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:ShipmentRequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com ship-val-global-req-2.0.xsd" schemaVersion="4.0">
+	<Request>
+		<ServiceHeader>
+			<MessageTime>2017-01-20T11:28:56.000-08:00</MessageTime>
+			<MessageReference>1234567890123456789012345678901</MessageReference>
+			<SiteID>prasanta</SiteID>
+			<Password>prasanta</Password>
+		</ServiceHeader>
+	</Request>
+	<!--RegionCode>AM</RegionCode-->
+	<!--RequestedPickupTime>Y</RequestedPickupTime-->
+	<!--NewShipper>Y</NewShipper-->
+	<LanguageCode>en</LanguageCode>
+	<PiecesEnabled>Y</PiecesEnabled>
+	<Billing>
+		<ShipperAccountNumber>550000055</ShipperAccountNumber>
+		<ShippingPaymentType>S</ShippingPaymentType>
+		<!--BillingAccountNumber>921019963</BillingAccountNumber-->
+		<DutyPaymentType>R</DutyPaymentType>
+		<!--DutyAccountNumber>921019963</DutyAccountNumber-->
+	</Billing>
+	<Consignee>
+		<CompanyName>Tan Tan INC</CompanyName>
+		<AddressLine>2711 St Nice</AddressLine>
+		<AddressLine>Appt 211</AddressLine>
+		<City>beijing</City>
+		<!--Division></Division-->
+		<!--DivisionCode>bi</DivisionCode-->
+		<PostalCode>100725</PostalCode>
+		<CountryCode>CN</CountryCode>
+		<CountryName>China</CountryName>
+		<FederalTaxId>RFTD10222124893</FederalTaxId>
+		<Contact>
+			<PersonName>Prasanta Sinha</PersonName>
+			<PhoneNumber>11234325423</PhoneNumber>
+			<PhoneExtension>45232</PhoneExtension>
+			<FaxNumber>11234325423</FaxNumber>
+			<Telex>454586</Telex>
+			<Email>test@dhl.com</Email>
+			<MobilePhoneNumber>11111111</MobilePhoneNumber>
+		</Contact>
+		<!--Suburb></Suburb-->
+	</Consignee>
+	<Commodity>
+		<CommodityCode>HS6110300099</CommodityCode>
+		<CommodityName>cmdname</CommodityName>
+	</Commodity>
+	<Dutiable>
+		<DeclaredValue>50.10</DeclaredValue>
+		<DeclaredCurrency>MYR</DeclaredCurrency>
+		<ShipperEIN>ShipperEIN</ShipperEIN>
+	</Dutiable>
+
+	<ExportDeclaration>
+		<InterConsignee>interconsgi12</InterConsignee>
+		<IsPartiesRelation>N</IsPartiesRelation>
+		<ECCN>eccn1</ECCN>
+		<SignatureName>mr low</SignatureName>
+		<SignatureTitle>manager</SignatureTitle>
+        <ExportReason>S</ExportReason>
+        <ExportReasonCode>P</ExportReasonCode>
+        <ExportLineItem>
+			<LineNumber>10</LineNumber>
+			<Quantity>5</Quantity>
+			<QuantityUnit>piece</QuantityUnit>
+			<Description>normal book</Description>
+			<Value>200.00</Value>
+			<IsDomestic>Y</IsDomestic>
+		    <CommodityCode>HS6110300099</CommodityCode>
+			<ECCN>EAR99</ECCN>
+			<Weight>
+				<Weight>100.0</Weight>
+				<WeightUnit>K</WeightUnit>
+			</Weight>
+        </ExportLineItem>
+	</ExportDeclaration>
+	<Reference>
+		<ReferenceID>AP shipment reference</ReferenceID>
+		<ReferenceType>St</ReferenceType>
+	</Reference> 
+	<ShipmentDetails>
+		<NumberOfPieces>2</NumberOfPieces>
+		<Pieces>
+			<Piece>
+				<PieceID>1</PieceID>
+				<PackageType>EE</PackageType>
+				<Weight>10.0</Weight>
+				<DimWeight>1200.0</DimWeight>
+				<Width>100</Width>
+				<Height>200</Height>
+				<Depth>300</Depth>
+				<PieceReference>
+					<ReferenceID>a</ReferenceID>
+				</PieceReference>
+			</Piece>
+			<Piece>
+				<PieceID>2</PieceID>
+				<PackageType>EE</PackageType>
+				<Weight>10.0</Weight>
+				<DimWeight>1200.0</DimWeight>
+				<Width>100</Width>
+				<Height>200</Height>
+				<Depth>300</Depth>
+			</Piece>
+		</Pieces>
+		<Weight>10.0</Weight>
+		<WeightUnit>K</WeightUnit>
+		<GlobalProductCode>P</GlobalProductCode>
+		<LocalProductCode>P</LocalProductCode>
+		<Date>2017-01-21</Date>
+		<Contents>AM international shipment contents</Contents>
+		<DoorTo>DD</DoorTo>
+		<DimensionUnit>C</DimensionUnit>
+		<InsuredAmount>1200.00</InsuredAmount>
+		<PackageType>EE</PackageType>
+		<IsDutiable>Y</IsDutiable>
+		<CurrencyCode>USD</CurrencyCode>
+	</ShipmentDetails>
+	<Shipper>
+		<ShipperID>550000055</ShipperID>
+		<CompanyName>Santa inc</CompanyName>
+		<!--RegisteredAccount>590022505</RegisteredAccount-->
+		<AddressLine>333 Twin </AddressLine>
+		<AddressLine>Suit 333</AddressLine>
+		<City>Kuala Lumpur</City>
+		<Division>California</Division>
+		<DivisionCode>CA</DivisionCode>
+		<PostalCode>94065</PostalCode>
+		<CountryCode>MY</CountryCode>
+		<CountryName>Malaysia</CountryName>
+		<FederalTaxId>SFTD10222124893</FederalTaxId>
+		<Contact>
+			<PersonName>santa santa</PersonName>
+			<PhoneNumber>15356456364</PhoneNumber>
+			<PhoneExtension>6536</PhoneExtension>
+			<FaxNumber>17456356365</FaxNumber>
+			<Telex>74558</Telex>
+			<Email>test@dhl.com</Email>
+		</Contact>
+		<!--Suburb></Suburb-->
+	</Shipper>
+	<!--SpecialService>
+		<SpecialServiceType>S</SpecialServiceType>
+		<ChargeValue>3.1</ChargeValue>
+		<CurrencyCode>USD</CurrencyCode>
+	</SpecialService-->
+	<LabelImageFormat>PDF</LabelImageFormat>
+	<Label>			
+		<LabelTemplate>8X4_PDF</LabelTemplate>
+	</Label>			
+
+</req:ShipmentRequest>
