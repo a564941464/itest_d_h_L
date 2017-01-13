@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="SOPLabel_Jasper/src"/>
+	<classpathentry kind="src" path="SOPLabel/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/soap.jar"/>
+	<classpathentry kind="lib" path="lib/xalan.jar"/>
+	<classpathentry kind="lib" path="lib/xerces1.4.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/activation.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/commons-beanutils-1.7.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/commons-collections-2.1.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/commons-logging-api-1.0.2.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/TableLayout.jar"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/vssver2.scc"/>
+	<classpathentry kind="lib" path="SOPLabel/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/activation.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/barbecue-1.5-beta1.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/commons-beanutils-1.7.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/commons-collections-2.1.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/commons-logging-api-1.0.2.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/iReport.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/iText-2.1.0.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/jasperreports-3.1.2.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/vssver2.scc"/>
+	<classpathentry kind="lib" path="SOPLabel_Jasper/lib/xercesImpl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
